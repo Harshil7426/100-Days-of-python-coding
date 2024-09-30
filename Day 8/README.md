@@ -6,6 +6,7 @@
     * concatenation
     * if statements
     * nested if statements
+
 Build a custom affirmations generator to give the user a customized affirmation each day of the week.
 
 Make sure you ask the user for their name, the current day of the week, and a few of their favorite things. All of this information should be used to help you build your affirmations.
