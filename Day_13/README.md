@@ -2,7 +2,7 @@
 # Grade Generator
 
 ## Overview
-The Grade Generator is a simple interactive program that allows users to input their test information and calculates their percentage score and letter grade based on the score achieved. This project helps users understand their performance and provides immediate feedback in a fun way, complete with emojis and colors!
+The Grade Generator is a simple interactive program that allows users to input their test information and calculates their percentage score and letter grade based on the score achieved. This project helps users understand their performance and provides immediate feedback in a fun way, complete with emojis and colors
 
 ## Features
 - Input test name, maximum score, and points received.
