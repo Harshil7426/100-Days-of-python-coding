@@ -9,4 +9,4 @@
 - If they are too low, tell them "too low." If they guess too high tell, them "too high."
 - If the user guesses correctly, tell them they are a winner (maybe add a fun emoji too!)
 - Count the number of attempts it took for the user to guess number. Make sure you only show that after they get the answer correct.
-* Extra challenge: If the user types a negative number, exit program.
+- Extra challenge: If the user types a negative number, exit program.
