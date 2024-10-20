@@ -15,7 +15,7 @@ Use Day 27's character generator for this project...to build an automated game b
 - Extra points for the use of emojis, colors, or even sound code!   
 
 Example:
-<div style="border: 2px solid #ccc; padding: 10px;border-radius:20px"> 
+```
 
   ⚔️ BATTLE TIME ⚔️
 
@@ -92,4 +92,4 @@ Oh no Arthur the Mighty has died!
 
 Sheila the Almighty destroyed Arthur the Magnificent in 3 rounds!
 
-</div>
+```
