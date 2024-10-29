@@ -1,0 +1,8 @@
+print("This program will generate your Star Wars Name.".upper())
+print("------"*5)
+first_name=str(input("Enter your first name: "))
+last_name=str(input("Enter your last name: "))
+maiden=str(input("Enter your mother's maiden name: "))
+city=str(input("Enter the city you were born in: "))
+print()
+print(f"Your Star Wars name is {first_name[:3].capitalize()}{last_name[:3].lower()} {maiden[:3].capitalize()}{city[-3:].lower()}")
