@@ -36,4 +36,4 @@ To play the game, follow these steps:
 
 1. **Clone the repository** to your local machine.
    ```bash
-   git clone https://github.com/yourusername/hangman-game.git
+   git clone https://github.com/Harshil7426/100-Days-of-python-coding.git
