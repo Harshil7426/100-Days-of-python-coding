@@ -1,0 +1,51 @@
+from replit import db
+import datetime
+import os,time
+
+
+def add():
+  tweet = input("What do you want to add in the diary? ")
+  timestamp = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+  db[timestamp] = tweet
+  print("Diary added!")
+
+
+def view():
+  """View diaries in reverse chronological order, 10 at a time."""
+  keys = sorted(db.keys(), reverse=True)  # Sort timestamps in reverse order
+  if not keys:
+    print("No diaries to display!")
+    return
+
+  for i in range(0, len(keys), 10):
+    for key in keys[i:i + 10]:
+      print(f"{key}: {db[key]}")
+    if i + 10 < len(keys):  # Check if there are more diaries
+      more = input("Show another 10 diaries? (yes/no): ").strip().lower()
+      if more != "yes":
+        break
+  """Main menu loop."""
+
+
+while True:
+  print("🌟 Diary 🌟")
+  password=input("Enter the password yo proceed> ")
+  if password=="password":
+    os.system("clear")
+    print("Welcome to your diary!")
+    menu = input("Add or view diaries? (add/view/exit): ").strip().lower()
+    if menu == "add":
+      add()
+    elif menu == "view":
+      view()
+    elif menu == "exit":
+      print("Exiting the program. Goodbye!")
+      break
+    else:
+      print("Enter a valid input (add/view/exit).")
+  else:
+    print("Wrong password. Exiting the program.")
+    time.sleep(1)
+    print("😭😭")
+    break
+  
