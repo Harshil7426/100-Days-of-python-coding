@@ -1,0 +1,20 @@
+<html>
+
+<head>
+  <title>Harshil's Blog</title>
+  <link rel="stylesheet" href="/static/style.css" </head>
+
+<body>
+  <h1>Harshil's Blog</h1>
+  <button type="button" onClick="location.href='/logout'">Log out</button>
+  <form method="post" action="/add">
+    <p>Title: <input type="text" name="title"></p>
+    <p>Date: <input type="date" name="date"></p>
+    <p>Body Text: <input type="text" name="body"></p>
+    <button type="submit">Save</button>
+    <hr>
+    {content}
+
+</body>
+
+</html>
